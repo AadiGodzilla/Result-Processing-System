@@ -1,0 +1,18 @@
+.popup {
+    width: 50%;
+}
+
+.addTable {
+    border-collapse: collapse;
+}
+
+.addTable tr,
+.addTable td {
+    padding: 0;
+}
+
+.addTable input {
+    width: 100%;
+    border: none;
+    padding: 8px;
+}

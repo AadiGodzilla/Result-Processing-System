@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.res_m {
+    width: 50%;
+}
+
+.field {
+    display: flex;
+    width: 50%;
+}
+
+.resultTable {
+    border-collapse: collapse;
+}
+
+.resultTable td,
+.resultTable tr {
+    padding: 0;
+}
+
+.resultTable input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+}

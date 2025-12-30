@@ -129,21 +129,23 @@
     border: 2px solid black;
 }
 
-.result_title {
-    width: 100%;
+.result_header {
     display: flex;
-    gap: 0.5rem;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    position: relative;
-    margin-bottom: 1rem;
+    padding: 0.5rem 0;
 }
 
-.result_title::before,
-.result_title::after {
-    content: "";
-    flex: 1;
-    border-bottom: 2px solid #000;
+.result_modify_btn {
+    padding: 8px;
+}
+
+.result_delete_btn {
+    padding: 8px;
+}
+
+.result_add_btn {
+    padding: 8px;
 }
 
 .result {
